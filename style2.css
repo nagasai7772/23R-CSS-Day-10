@@ -1,0 +1,646 @@
+.phone{
+    border:2px solid black;
+    height: 800px;
+    width: 355px;
+    border-radius: 10px;
+   
+    margin-left: 500px;
+
+}
+
+.phone:hover{
+    background-color: black;
+    color:white;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.profile{
+    border:2px solid deeppink;
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+       background-image: url(https://images5.alphacoders.com/135/1353021.png);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       margin-left: 20px;
+}
+
+
+
+.list{
+ display: flex;
+ flex-wrap: nowrap;
+ flex-direction: row;
+ gap: 16px;
+ margin-left: 105px;
+}
+
+    
+
+.num{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:50px;
+    margin-top: 10px;
+    margin-left: 115px;
+    font-weight: 900;
+}
+.bio{
+    margin-left: 10px;
+    font-size: 12px;
+}
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+}
+button{
+    height: 30px;
+    width: 130px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-left: -5px;
+    
+}
+.m{
+    height: 30px;
+    width: 130px;
+    background-color:antiquewhite;
+    border-radius: 5px;
+}
+.c{
+    height: 30px;
+    width: 40px;
+    background-color:antiquewhite;
+    border-radius: 5px;
+}
+.follow{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:20px
+}
+.highlights{
+    display: flex;
+    gap: 2px;
+}
+.highnames{
+    display: flex;
+    justify-content: space-between;
+    gap:-5px
+    
+}
+.high1{
+    border:2px solid white;
+    height: 70px;
+    width: 90px;
+    border-radius: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/7/7a/Harry_Potter_and_the_Philosopher%27s_Stone_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.high2{
+    border:2px solid white;
+    height: 70px;
+    width: 90px;
+    border-radius: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5A3qWS582ViaiT4KF3kKKpIdghZilL0Zsw&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.high3{
+    border:2px solid white;
+    height: 70px;
+    width: 90px;
+    border-radius: 100px;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.high4{
+    border:2px solid white;
+    height: 70px;
+    width: 90px;
+    border-radius: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Harry_Potter_and_the_Goblet_of_Fire_Poster.jpg/220px-Harry_Potter_and_the_Goblet_of_Fire_Poster.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.high5{
+    border:2px solid white;
+    height: 70px;
+    width: 90px;
+    border-radius: 100px;
+    background-image: url(https://musicart.xboxlive.com/7/22e15000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.posts{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.imgp{
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    height: 230px;
+}
+.imgp::-webkit-scrollbar{
+    display: none;
+}
+.imgposts{
+    display: flex;
+    gap:1px;
+    
+}
+.p1{
+    border: 2px solid black;
+      background-image: url(https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/l/q/f/medium-harry-potter-hd-wallpaper-on-fine-art-paper-13x19-original-imah368fbudammbu.jpeg?q=90&crop=false);
+     height: 100px;
+     width: 110px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    .p1:hover{
+              transition: width 2s height 2s;
+              transition-timing-function: linear;
+              height: 200px;
+              width: 300px;
+              transition-duration: 2s;
+              transform:scaley(1.0);
+             border:3px solid white;
+             border-radius: 20px;
+    }
+.p2{
+    border: 2px solid black;
+      background-image: url(https://wallpapercat.com/w/full/8/7/7/133723-3840x2160-desktop-4k-harry-potter-wallpaper.jpg);
+     height: 100px;
+     width: 112px;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+
+}
+.p2:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+.p3{
+
+    border: 2px solid black;
+      background-image: url(https://wallpapers.com/images/featured/harry-potter-gi5aixvd4d26cpij.jpg);
+     height: 100px;
+     width: 105px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+.p3:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scaley(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+.imgposts2{
+    display: flex;
+    gap: 1px;
+}
+.p4{
+
+    border: 2px solid black;
+    background-image: url(https://w0.peakpx.com/wallpaper/537/306/HD-wallpaper-set-as-lock-screen-harry-potter-black-background-novel-series.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p4:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+
+.p5{
+    border: 2px solid black;
+    background-image: url(https://wallpapers.com/images/hd/red-harry-potter-iphone-artwork-5kq3e39n9oit5km3.jpg);
+   height: 100px;
+   width: 110px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p5:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+
+.p6{
+    border: 2px solid black;
+    background-image: url(https://wallpapercat.com/w/full/8/7/3/133944-1536x2732-phone-hd-harry-potter-wallpaper-image.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p6:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+
+.imgposts3{
+    display: flex;
+    gap:1px;
+}
+.p7{
+    border: 2px solid black;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNTJiOGEwN2QtNjhkNi00NmJlLWIyZDAtN2I5MmI1ZTQ3ZGYxXkEyXkFqcGc@._V1_.jpg);
+   height: 100px;
+   width: 115px;
+   background-position:contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+
+}
+.p7:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 200px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+
+.p8{
+    border: 2px solid black;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTMyMDAzODEzNV5BMl5BanBnXkFtZTcwMzk0OTY4NQ@@._V1_.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: contain center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p8:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+
+.p9{
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS-MvwnM2vVUPu1RmfuwKDHb-pzVh7RvC5LQ&s);
+   height: 100px;
+   width: 115px;
+   background-position: contain center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+
+}
+.p9:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+    border:3px solid white;
+    border-radius: 20px;
+}
+.imgposts4{
+    display: flex;
+}
+.p10{
+    border: 2px solid black;
+    background-image: url(https://wallpapers.com/images/featured/hogwarts-2h5rh3z2vkebpcvf.jpg);
+   height: 100px;
+   width: 112px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p10:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+
+.p11{
+    border: 2px solid black;
+    background-image: url(https://motionbgs.com/media/4840/hogwarts-harry-potter.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+
+}
+.p11:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.p12{
+    border: 2px solid black;
+    background-image: url(https://wallpapers.com/images/featured/hogwarts-pictures-8dwzgv8y5dr5zsxm.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+
+}
+.p12:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.imgposts5{
+    display:flex;
+}
+.p13{
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNawvl3owEmrea9EjgQ0XOL4fpxsg6dT7s8A&s);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p13:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.p14{
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzqYFcDHRCUeKtGOq-MpmfK1Sdi5HXTWP5SA&s);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p14:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.p15{
+    border: 2px solid black;
+    background-image: url(https://manybackgrounds.com/images/hd/harry-potter-logo-h59bpm0q236q8f43.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p15:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.imgposts6{
+    display:flex;
+}
+.p16{
+    border: 2px solid black;
+    background-image: url(https://cdn.wallpapersafari.com/81/55/xdYmT98.webp);
+   height: 100px;
+   width: 115px;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}.p16:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+
+.p17{
+    border: 2px solid black;
+    background-image: url(https://thypix.com/wp-content/uploads/2021/04/harry-potter-mobile-wallpapers-30-700x1400.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p17:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.p18{
+    border: 2px solid black;
+    background-image: url(https://ashisheditz.com/wp-content/uploads/2023/09/harry-potter-wallpaper-ipad_11zon.jpg);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p18:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.imgposts7{
+    display: flex;
+}
+.p19{
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEXHxBsrahjOzeoSwU1WieuSU3fex1rdVJ5g&s);
+   height: 100px;
+   width: 115px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p19:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+
+
+.p20{
+    border: 2px solid black;
+    background-image: url(https://sensi-sl.org/wp-content/uploads/2024/01/harry-potter-wallpaper-for-ipad-0.jpg);
+   height: 100px;
+   width: 110px;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p20:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}.p21{
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ966JY9I0_eTjQvRJ5SY3srZKb1ih1UBbi2g&s);
+   height: 100px;
+   width: 115px;
+   background-position: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.p21:hover{
+    transition: width 2s height 2s;
+    transition-timing-function: linear;
+    height: 200px;
+    width: 300px;
+    transition-duration: 2s;
+    transform:scale(1.0);
+   border:3px solid white;
+   border-radius: 20px;
+}
+.footer{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    gap:13px;
+    
+}
+.foot{
+    margin-top: 18px;
+
+}
+
